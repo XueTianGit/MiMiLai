@@ -1,2 +1,0 @@
-# MiMiLai
-Cooperation projects
