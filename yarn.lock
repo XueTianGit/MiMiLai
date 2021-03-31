@@ -1255,11 +1255,6 @@ chardet@^0.4.0:
   resolved "http://registry.npm.taobao.org/chardet/download/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
   integrity sha1-tUc7M9yXxCTl2Y3IfVXU2KKci/I=
 
-chardet@^0.7.0:
-  version "0.7.0"
-  resolved "http://registry.npm.taobao.org/chardet/download/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
-  integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
-
 chownr@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/chownr/download/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
@@ -2006,15 +2001,6 @@ external-editor@^2.0.4:
     iconv-lite "^0.4.17"
     tmp "^0.0.33"
 
-external-editor@^3.0.0:
-  version "3.0.3"
-  resolved "http://registry.npm.taobao.org/external-editor/download/external-editor-3.0.3.tgz#5866db29a97826dbe4bf3afd24070ead9ea43a27"
-  integrity sha1-WGbbKal4Jtvkvzr9JAcOrZ6kOic=
-  dependencies:
-    chardet "^0.7.0"
-    iconv-lite "^0.4.24"
-    tmp "^0.0.33"
-
 extglob@^0.3.1:
   version "0.3.2"
   resolved "http://registry.npm.taobao.org/extglob/download/extglob-0.3.2.tgz#2e18ff3d2f49ab2765cec9023f011daa8d8349a1"
@@ -2502,7 +2488,7 @@ iconv-lite@0.4.23:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-iconv-lite@^0.4.17, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
+iconv-lite@^0.4.17, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "http://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -2561,25 +2547,6 @@ ini@~1.3.0:
   version "1.3.5"
   resolved "http://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
-
-inquirer@*:
-  version "6.2.0"
-  resolved "http://registry.npm.taobao.org/inquirer/download/inquirer-6.2.0.tgz#51adcd776f661369dc1e894859c2560a224abdd8"
-  integrity sha1-Ua3Nd29mE2ncHolIWcJWCiJKvdg=
-  dependencies:
-    ansi-escapes "^3.0.0"
-    chalk "^2.0.0"
-    cli-cursor "^2.1.0"
-    cli-width "^2.0.0"
-    external-editor "^3.0.0"
-    figures "^2.0.0"
-    lodash "^4.17.10"
-    mute-stream "0.0.7"
-    run-async "^2.2.0"
-    rxjs "^6.1.0"
-    string-width "^2.1.0"
-    strip-ansi "^4.0.0"
-    through "^2.3.6"
 
 inquirer@^3.0.6:
   version "3.3.0"
@@ -2936,10 +2903,10 @@ istanbul-reports@^1.5.1:
   dependencies:
     handlebars "^4.0.3"
 
-jcore-react-native@^1.2.9:
-  version "1.2.9"
-  resolved "http://registry.npm.taobao.org/jcore-react-native/download/jcore-react-native-1.2.9.tgz#eacd99a4e0d09dde5da8c78bf050c1a7bbd235b4"
-  integrity sha1-6s2ZpODQnd5dqMeL8FDBp7vSNbQ=
+jcore-react-native@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/jcore-react-native/-/jcore-react-native-1.8.0.tgz#924ebe30c0d4fa6a3a52a7fd162e965facc90763"
+  integrity sha512-BhN0K9sCxqQl2Nyw4adGd9JGd0OOqN+RsOoBXvkoReGKkRzAeeCHcq4UxeojemzAX/1H9uhRCUnzruxp1olyeg==
 
 jest-changed-files@^23.4.2:
   version "23.4.2"
@@ -3275,13 +3242,10 @@ jest@23.4.2:
     import-local "^1.0.0"
     jest-cli "^23.4.2"
 
-jpush-react-native@^2.2.9:
-  version "2.2.9"
-  resolved "http://registry.npm.taobao.org/jpush-react-native/download/jpush-react-native-2.2.9.tgz#06f809f40e6e668758e1d891a48ad7cd36b399df"
-  integrity sha1-BvgJ9A5uZodY4diRpIrXzTazmd8=
-  dependencies:
-    inquirer "*"
-    mpatch "^0.1.0"
+jpush-react-native@2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/jpush-react-native/-/jpush-react-native-2.8.1.tgz#bd3d955c46de5ff34390720f7c3aca4371f82958"
+  integrity sha512-1TZvLhZbv84hzW/Wk+yd/dxBBja1WO5BQx+8YPHh0sfpOiaECd/zIlYNX4yArFKXmY1BxgQymJ06YDTWuapH6g==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -3807,13 +3771,6 @@ morgan@~1.6.1:
     depd "~1.0.1"
     on-finished "~2.3.0"
     on-headers "~1.0.0"
-
-mpatch@^0.1.0:
-  version "0.1.2"
-  resolved "http://registry.npm.taobao.org/mpatch/download/mpatch-0.1.2.tgz#2b3f89b5b33118d54b9fe9b4a9cfb322842cedae"
-  integrity sha1-Kz+JtbMxGNVLn+m0qc+zIoQs7a4=
-  dependencies:
-    glob "^7.1.2"
 
 ms@0.7.1:
   version "0.7.1"
@@ -4615,10 +4572,10 @@ react-native-zycountdown@^1.2.1:
   resolved "http://registry.npm.taobao.org/react-native-zycountdown/download/react-native-zycountdown-1.2.1.tgz#6bc3fd47cd339224bbea8e61cde94d7d2630c7e2"
   integrity sha1-a8P9R80zkiS76o5hzelNfSYwx+I=
 
-react-native@0.49.3:
-  version "0.49.3"
-  resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.49.3.tgz#0ca459ee49f9c59e8326b2ced9e34c59333a2f26"
-  integrity sha1-DKRZ7kn5xZ6DJrLO2eNMWTM6LyY=
+react-native@^0.49.3:
+  version "0.49.5"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.49.5.tgz#89f0fe93a8da4db2670c4bd0d81131a2ff617f27"
+  integrity sha1-ifD+k6jaTbJnDEvQ2BExov9hfyc=
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -5050,13 +5007,6 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "http://registry.npm.taobao.org/rx-lite/download/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
   integrity sha1-Cx4Rr4vESDbwSmQH6S2kJGe3lEQ=
-
-rxjs@^6.1.0:
-  version "6.3.2"
-  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-6.3.2.tgz#6a688b16c4e6e980e62ea805ec30648e1c60907f"
-  integrity sha1-amiLFsTm6YDmLqgF7DBkjhxgkH8=
-  dependencies:
-    tslib "^1.9.0"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -5636,11 +5586,6 @@ trim-right@^1.0.1:
   resolved "http://registry.npm.taobao.org/trim-right/download/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-tslib@^1.9.0:
-  version "1.9.3"
-  resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
-  integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
-
 tsscmp@1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/tsscmp/download/tsscmp-1.0.5.tgz#7dc4a33af71581ab4337da91d85ca5427ebd9a97"
@@ -6051,9 +5996,9 @@ xtend@~4.0.1:
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "http://registry.npm.taobao.org/y18n/download/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yallist@^2.1.2:
   version "2.1.2"
